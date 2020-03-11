@@ -1,0 +1,26 @@
+{
+  "name": "in2code/ods_osm_tt_address",
+  "description": "Bring the old ext to live",
+  "keywords": ["tt_address"],
+  "homepage": "https://github.com/in2code-de/ods-osm-tt-address",
+  "authors": [
+    {
+      "name": "Alex Kellner",
+      "email": "alexander.kellner@in2code.de"
+    }
+  ],
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0",
+  "require": {
+    "typo3/cms-core": ">=8.7.0 <9.6.0",
+    "friendsoftypo3/tt-address": "*"
+  },
+  "replace": {
+    "typo3-ter/ods_osm_tt_address": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "In2code\\OdsOsmTtAddress\\": "Classes"
+    }
+  }
+}
