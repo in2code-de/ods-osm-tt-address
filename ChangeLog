@@ -1,0 +1,17 @@
+2016-09-01 Robert Heel <typo3@bobosch.de>
+	* Bug #77686: No LAT and LON input fields in backend form of tt_adress records (Thanks to Volker Burggräf).
+
+2016-04-14 Robert Heel <typo3@bobosch.de>
+	* Add: Define marker icon with TS IMAGE object.
+
+2016-04-12 Robert Heel <typo3@bobosch.de>
+	* Bugfix: Check if database field exists in update script.
+
+2016-04-11 Robert Heel <typo3@bobosch.de>
+	* Bugfix: TS template with sys_category instead of tt_address_group.
+
+2016-03-20 Robert Heel <typo3@bobosch.de>
+	* Change: Compatibility to tt_address 3.
+
+2016-03-20 Robert Heel <typo3@bobosch.de>
+	* Initial release.
