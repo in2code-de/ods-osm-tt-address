@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
 		'depends' => [
 			'ods_osm' => '2.0.0-',
 			'tt_address' => '3.1.0-',
-			'typo3' => '6.2.0-9.5.99',
+			'typo3' => '8.7.0-9.5.99',
 		],
 		'conflicts' => [
 		],
